@@ -1,0 +1,181 @@
+// @import image from "../../images/index1.jpeg";
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin:0;
+    padding: 0;
+    width: 100vw;
+}
+
+.homecontainer{
+  background: url("https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2883&q=80") no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    -webkit-backgound-size: cover;
+    -moz-backgound-size: cover;
+    -o-backgound-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.btn a{
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px; 
+  color: white;
+  
+}
+
+
+
+.main{
+    text-align: center;
+    margin:100px auto;
+    height: 250px;
+    border-radius: 5px;
+    background-color: hsla(210, 23%, 31%, 0.801);
+
+
+
+}
+.signin{
+    background-color: rgb(4, 6, 88);
+}
+.signin:hover{
+    background-color: hsla(246, 88%, 25%, 0.897);
+}
+.signup1{
+    background-color: hsl(120, 94%, 20%);
+}
+.signup1:hover{
+    background-color: hsla(120, 87%, 18%, 0.897);
+}
+
+.wel{
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+
+/* nav-bar style*/
+nav{
+    width:100%;
+    background-color: #1d2731;
+    color: white;
+    z-index: 1;
+}
+
+textarea:focus, input:focus , select:focus , option:focus{
+    outline: none;
+}
+.icon-place{
+    display: none;
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    padding: 10px;
+    margin-top: -7px;
+    background-color: #1d2731;
+}
+.icon-place:hover{
+    opacity: 0.7;
+}
+
+.icon-1{
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+    border-radius: 3px;
+    background-color: white;
+}
+.logo{
+    display: inline-block;
+    text-align: center;
+    background-color: #1d2731;
+    
+}
+.logo h1{
+    text-align: center;
+    padding:0px;
+    margin: 0px;
+}
+.nav-left{
+    display: inline-block;
+    
+}
+nav ul{
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    background-color: #1d2731;
+    
+}
+nav li{
+    display: inline-block;
+    padding: 0.8px 0px;
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: white;
+    color: #1d2731;
+}
+
+nav li:hover{
+    background-color: white;
+    color: #1d2731;
+}
+
+nav a{
+    margin: 0px; 
+    display: block;
+    text-decoration: none;
+    text-decoration-style: none;
+    text-align: center;
+    padding:10px;
+    color: white;
+}
+
+@media only screen and (max-width: 400px){
+    .btn a{
+        display: inline;
+        font-size: 0.7em;
+    }
+
+    .ul{
+        display: none;
+    }
+    .active{
+        
+        display: block;
+        transition: 0.5s;
+    }
+    .btn{
+        width: 100%;
+
+    }
+    .ul{
+        width: 100%;
+    }
+    .ul li{
+        width: 100%;
+        display: block;
+    }
+    .icon-place{
+        display: block;
+        
+    }
+}
